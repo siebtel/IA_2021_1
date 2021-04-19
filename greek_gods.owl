@@ -276,11 +276,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ceos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ceos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filho"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Chaos -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Chaos">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Pai"/>
         <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Gaia"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Nix"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Anteros"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Erebo"/>
         <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Eros"/>
         <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Tartaro"/>
     </owl:NamedIndividual>
@@ -300,6 +311,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Cronos">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filho"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Pai"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Demeter"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hera"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hestia"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hades"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Poseidon"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Zeus"/>
     </owl:NamedIndividual>
     
 
@@ -309,6 +326,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Demeter">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filha"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Mãe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Persefone"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Zagreu"/>
     </owl:NamedIndividual>
     
 
@@ -358,6 +377,17 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Gaia">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filha"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Mãe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Equidna"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Febe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Reia"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Tetis"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ceos"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ciclopes"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Cronos"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hiperiao"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Japeto"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Oceano"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Uranos"/>
     </owl:NamedIndividual>
     
 
@@ -391,6 +421,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hera">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filha"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Mãe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Eris"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hebe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ilitia"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Angelo"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ares"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hefesto"/>
     </owl:NamedIndividual>
     
 
@@ -432,6 +468,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Leto">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filha"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Mãe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Artemis"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Apolo"/>
     </owl:NamedIndividual>
     
 
@@ -473,6 +511,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Reia">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filha"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Mãe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Demeter"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hera"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hestia"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hades"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Poseidon"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Zeus"/>
     </owl:NamedIndividual>
     
 
@@ -498,6 +542,16 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Uranos">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filho"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Pai"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Equidna"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Febe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Reia"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Tetis"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ceos"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ciclopes"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Cronos"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hiperiao"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Japeto"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Oceano"/>
     </owl:NamedIndividual>
     
 
@@ -515,6 +569,16 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Zeus">
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Filho"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Pai"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Artemis"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Eris"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hebe"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ilitia"/>
+        <TemFilha rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Persefone"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Angelo"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Apolo"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Ares"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Hefesto"/>
+        <TemFilho rdf:resource="http://www.semanticweb.org/siebt/ontologies/2021/3/untitled-ontology-2#Zagreu"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 

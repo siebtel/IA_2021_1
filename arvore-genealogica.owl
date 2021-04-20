@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gabriela.oliveria/ontologies/2021/3/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gabriela.oliveria/ontologies/2021/3/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/gabriela.oliveria/ontologies/2021/3/untitled-ontology-4"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Entidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filho_G"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genitor_G"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irmao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irmao_G"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mulher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pai"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EhMaeDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EhPaiDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SeuPaiEh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SuaMaeEh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TemIrma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TemIrmao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Titulo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ares"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hebe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hefesto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zeus"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Filha"/>
+        <Class IRI="#Filho_G"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filho"/>
+        <Class IRI="#Filho_G"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filho_G"/>
+        <Class IRI="#Entidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genitor_G"/>
+        <Class IRI="#Entidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homem"/>
+        <Class IRI="#Entidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irma"/>
+        <Class IRI="#Irmao_G"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irmao"/>
+        <Class IRI="#Irmao_G"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irmao_G"/>
+        <Class IRI="#Entidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mae"/>
+        <Class IRI="#Genitor_G"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mulher"/>
+        <Class IRI="#Entidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pai"/>
+        <Class IRI="#Genitor_G"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mae"/>
+        <NamedIndividual IRI="#Hera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Hera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Zeus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pai"/>
+        <NamedIndividual IRI="#Zeus"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Hebe"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Hefesto"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Hefesto"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Hera"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Hera"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Hera"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Ares"/>
+        <Literal>Ares</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Ares"/>
+        <Literal>Deus da guerra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Hebe"/>
+        <Literal>Hebe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Hebe"/>
+        <Literal>Deusa da juventude</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Hefesto"/>
+        <Literal>Hefesto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Hefesto"/>
+        <Literal>Deus do fogo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Hera"/>
+        <Literal>Hera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Hera"/>
+        <Literal>Rainha do paraíso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <Literal>Zeus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <Literal>Pai dos deuses</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SeuPaiEh"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SuaMaeEh"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TemIrma"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TemIrmao"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <ObjectProperty IRI="#TemIrma"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <ObjectProperty IRI="#TemIrmao"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <ObjectProperty IRI="#SuaMaeEh"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <ObjectProperty IRI="#SeuPaiEh"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <Class IRI="#Irma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <Class IRI="#Irmao"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <Class IRI="#Mae"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <Class IRI="#Pai"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeuPaiEh"/>
+        <Class IRI="#Pai"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SuaMaeEh"/>
+        <Class IRI="#Mae"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TemIrma"/>
+        <Class IRI="#Irma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TemIrma"/>
+        <Class IRI="#Irmao"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TemIrmao"/>
+        <Class IRI="#Irma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TemIrmao"/>
+        <Class IRI="#Irmao"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <Class IRI="#Irma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <Class IRI="#Irmao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <Class IRI="#Irma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <Class IRI="#Irmao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <Class IRI="#Filha"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <Class IRI="#Filho"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <Class IRI="#Filha"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <Class IRI="#Filho"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeuPaiEh"/>
+        <Class IRI="#Filho_G"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SuaMaeEh"/>
+        <Class IRI="#Filho_G"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TemIrma"/>
+        <Class IRI="#Irma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TemIrmao"/>
+        <Class IRI="#Irmao"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

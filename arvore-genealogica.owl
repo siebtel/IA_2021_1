@@ -165,31 +165,95 @@
         <Class IRI="#Genitor_G"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Filha"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irma"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Angelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filho"/>
+        <NamedIndividual IRI="#Apolo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Homem"/>
         <NamedIndividual IRI="#Apolo"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Irmao"/>
+        <NamedIndividual IRI="#Apolo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filho"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Homem"/>
         <NamedIndividual IRI="#Ares"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irmao"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filha"/>
+        <NamedIndividual IRI="#Artemis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irma"/>
+        <NamedIndividual IRI="#Artemis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Artemis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Mae"/>
+        <NamedIndividual IRI="#Demeter"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Demeter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filha"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irma"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filha"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irma"/>
+        <NamedIndividual IRI="#Hebe"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Hebe"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Filho"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irmao"/>
         <NamedIndividual IRI="#Hefesto"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -201,19 +265,47 @@
         <NamedIndividual IRI="#Hera"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Filha"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irma"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Ilitia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mae"/>
+        <NamedIndividual IRI="#Leto"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Leto"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Filha"/>
+        <NamedIndividual IRI="#Persefone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irma"/>
+        <NamedIndividual IRI="#Persefone"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Persefone"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Filho"/>
+        <NamedIndividual IRI="#Zagreu"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Zagreu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irmao"/>
         <NamedIndividual IRI="#Zagreu"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -694,11 +786,19 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#SeuPaiEh"/>
-        <Class IRI="#Pai"/>
+        <Class IRI="#Filha"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeuPaiEh"/>
+        <Class IRI="#Filho"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#SuaMaeEh"/>
-        <Class IRI="#Mae"/>
+        <Class IRI="#Filha"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SuaMaeEh"/>
+        <Class IRI="#Filho"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#TemIrma"/>
@@ -750,11 +850,11 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#SeuPaiEh"/>
-        <Class IRI="#Filho_G"/>
+        <Class IRI="#Pai"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#SuaMaeEh"/>
-        <Class IRI="#Filho_G"/>
+        <Class IRI="#Mae"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#TemIrma"/>

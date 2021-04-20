@@ -79,7 +79,16 @@
         <DataProperty IRI="#Titulo"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Apolo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ares"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artemis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demeter"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hebe"/>
@@ -89,6 +98,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Persefone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zagreu"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Zeus"/>
@@ -139,7 +157,19 @@
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Apolo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
         <NamedIndividual IRI="#Ares"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Artemis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Demeter"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mulher"/>
@@ -158,6 +188,18 @@
         <NamedIndividual IRI="#Hera"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Leto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Persefone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Zagreu"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Homem"/>
         <NamedIndividual IRI="#Zeus"/>
     </ClassAssertion>
@@ -166,11 +208,36 @@
         <NamedIndividual IRI="#Zeus"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Apolo"/>
+        <NamedIndividual IRI="#Artemis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Artemis"/>
+        <NamedIndividual IRI="#Apolo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Demeter"/>
+        <NamedIndividual IRI="#Persefone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Demeter"/>
+        <NamedIndividual IRI="#Zagreu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaDe"/>
         <NamedIndividual IRI="#Hebe"/>
         <NamedIndividual IRI="#Ares"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Hebe"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaoDe"/>
         <NamedIndividual IRI="#Hefesto"/>
         <NamedIndividual IRI="#Ares"/>
@@ -196,9 +263,39 @@
         <NamedIndividual IRI="#Hefesto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Leto"/>
+        <NamedIndividual IRI="#Apolo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Leto"/>
+        <NamedIndividual IRI="#Artemis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Persefone"/>
+        <NamedIndividual IRI="#Zagreu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Zagreu"/>
+        <NamedIndividual IRI="#Persefone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Apolo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhPaiDe"/>
         <NamedIndividual IRI="#Zeus"/>
         <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Artemis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhPaiDe"/>
@@ -210,6 +307,26 @@
         <NamedIndividual IRI="#Zeus"/>
         <NamedIndividual IRI="#Hefesto"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Persefone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Zagreu"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Apolo"/>
+        <Literal>Apolo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Apolo"/>
+        <Literal>Deus do Sol, das artes, da música, da profecia, medicina etc.</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Nome"/>
         <NamedIndividual IRI="#Ares"/>
@@ -219,6 +336,21 @@
         <DataProperty IRI="#Titulo"/>
         <NamedIndividual IRI="#Ares"/>
         <Literal>Deus da guerra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Artemis"/>
+        <Literal>Deusa da caça, da Lua, da castidade, do parto e dos animais selvagens.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Demeter"/>
+        <Literal>Demeter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Demeter"/>
+        <Literal>Deusa grega da colheita, da fertilidade, da terra cultivada, do direito sagrado e detém o ciclo da vida e da morte</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Nome"/>
@@ -249,6 +381,26 @@
         <DataProperty IRI="#Titulo"/>
         <NamedIndividual IRI="#Hera"/>
         <Literal>Rainha do paraíso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Leto"/>
+        <Literal>Leto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Leto"/>
+        <Literal>Deusa do anoitecer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Persefone"/>
+        <Literal>Persefone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Persefone"/>
+        <Literal>Deusa do submundo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Nome"/>

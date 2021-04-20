@@ -79,6 +79,9 @@
         <DataProperty IRI="#Titulo"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Angelo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Apolo"/>
     </Declaration>
     <Declaration>
@@ -91,6 +94,9 @@
         <NamedIndividual IRI="#Demeter"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Eris"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Hebe"/>
     </Declaration>
     <Declaration>
@@ -98,6 +104,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ilitia"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Leto"/>
@@ -156,6 +165,10 @@
         <Class IRI="#Genitor_G"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Homem"/>
         <NamedIndividual IRI="#Apolo"/>
     </ClassAssertion>
@@ -189,6 +202,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
         <NamedIndividual IRI="#Leto"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -208,9 +225,59 @@
         <NamedIndividual IRI="#Zeus"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Angelo"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Angelo"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Angelo"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Angelo"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Angelo"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaoDe"/>
         <NamedIndividual IRI="#Apolo"/>
         <NamedIndividual IRI="#Artemis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Ares"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Ares"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Ares"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Ares"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Ares"/>
+        <NamedIndividual IRI="#Ilitia"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaoDe"/>
@@ -229,8 +296,43 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Eris"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Eris"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Eris"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Eris"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Eris"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Hebe"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
         <NamedIndividual IRI="#Hebe"/>
         <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Hebe"/>
+        <NamedIndividual IRI="#Eris"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaDe"/>
@@ -238,6 +340,16 @@
         <NamedIndividual IRI="#Hefesto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Hebe"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Hefesto"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaoDe"/>
         <NamedIndividual IRI="#Hefesto"/>
         <NamedIndividual IRI="#Ares"/>
@@ -245,7 +357,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhIrmaoDe"/>
         <NamedIndividual IRI="#Hefesto"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Hefesto"/>
         <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Hefesto"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaoDe"/>
+        <NamedIndividual IRI="#Hefesto"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Hera"/>
+        <NamedIndividual IRI="#Angelo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhMaeDe"/>
@@ -255,11 +387,46 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhMaeDe"/>
         <NamedIndividual IRI="#Hera"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Hera"/>
         <NamedIndividual IRI="#Hebe"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhMaeDe"/>
         <NamedIndividual IRI="#Hera"/>
+        <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhMaeDe"/>
+        <NamedIndividual IRI="#Hera"/>
+        <NamedIndividual IRI="#Ilitia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Ilitia"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Ilitia"/>
+        <NamedIndividual IRI="#Ares"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Ilitia"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Ilitia"/>
+        <NamedIndividual IRI="#Hebe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhIrmaDe"/>
+        <NamedIndividual IRI="#Ilitia"/>
         <NamedIndividual IRI="#Hefesto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -285,6 +452,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhPaiDe"/>
         <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Angelo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
         <NamedIndividual IRI="#Apolo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -300,12 +472,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhPaiDe"/>
         <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
         <NamedIndividual IRI="#Hebe"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhPaiDe"/>
         <NamedIndividual IRI="#Zeus"/>
         <NamedIndividual IRI="#Hefesto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#EhPaiDe"/>
+        <NamedIndividual IRI="#Zeus"/>
+        <NamedIndividual IRI="#Ilitia"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#EhPaiDe"/>
@@ -317,6 +499,16 @@
         <NamedIndividual IRI="#Zeus"/>
         <NamedIndividual IRI="#Zagreu"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Angelo"/>
+        <Literal>Angelos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Angelo"/>
+        <Literal>Deusa inframundo</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Nome"/>
         <NamedIndividual IRI="#Apolo"/>
@@ -354,6 +546,16 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Eris"/>
+        <Literal>Eris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Eris"/>
+        <Literal>Deusa da discórdia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
         <NamedIndividual IRI="#Hebe"/>
         <Literal>Hebe</Literal>
     </DataPropertyAssertion>
@@ -381,6 +583,16 @@
         <DataProperty IRI="#Titulo"/>
         <NamedIndividual IRI="#Hera"/>
         <Literal>Rainha do paraíso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Ilitia"/>
+        <Literal>Ilitia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Titulo"/>
+        <NamedIndividual IRI="#Ilitia"/>
+        <Literal>Deusa dos partos e gestantes</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Nome"/>
